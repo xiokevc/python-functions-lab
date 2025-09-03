@@ -96,7 +96,8 @@ print('Exercise 5:', sum_to(6))
 #
 # Define your function and test it with different inputs.
 
-
+def largest(a, b, c):
+    return max(a, b, c)
 
 print('Exercise 6:', largest(1, 2, 3))
 
