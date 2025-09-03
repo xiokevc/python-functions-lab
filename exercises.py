@@ -25,6 +25,8 @@ print('Exercise 1:', calculate_area_triangle(10, 5))
 #
 # Define your function and call it to see the result.
 
+def simple_interest(principal, rate, time):
+    return (principal * rate * time) / 100
 
 print('Exercise 2:', simple_interest(1000, 5, 2))
 
